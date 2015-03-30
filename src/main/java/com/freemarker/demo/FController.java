@@ -22,7 +22,6 @@ public class FController
 {
     private Set<User> userSet;
 
-
     public FController()
     {
         userSet = new HashSet<>();
