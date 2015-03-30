@@ -7,6 +7,7 @@ public class User
 {
     private String firstname;
     private String lastname;
+    private boolean admin = false;
 
     public User()
     {
@@ -36,6 +37,16 @@ public class User
     public String getLastname()
     {
         return lastname;
+    }
+
+    public boolean isAdmin()
+    {
+        return admin;
+    }
+
+    public void setAdmin(boolean admin)
+    {
+        this.admin = admin;
     }
 }
 

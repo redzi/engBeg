@@ -31,6 +31,12 @@ public class FController
         userSet.add(new User("Bobek", "Kot"));
     }
 
+    @RequestMapping(value="/", method = RequestMethod.GET)
+    public String entryPage(Model model)
+    {
+        return ("firstPage/greetings");
+    }
+
     @RequestMapping(value="/list", method = RequestMethod.GET)
     public String listGet(Model model)
     {
