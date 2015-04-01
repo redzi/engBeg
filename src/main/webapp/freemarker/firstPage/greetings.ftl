@@ -2,18 +2,26 @@
 <title>play on ftl</title>
 <link type="text/css" href="/resources/greetPage.css" rel="stylesheet" />
 <head>
+<#import "../common/header.ftl" as header>
+<#import "../common/footer.ftl" as footer>
 
-    <div class="container">
-        <import>header.ftl</import>
+    <div class="all">
+        <header>
+            <@header.header/>
+        </header>
+        <nav>
+            London<br>
+            Paris<br>
+            Tokyo<br>
+        </nav>
+        <section>
+            test
+        </section>
+
+        <footer>
+            <@footer.footer/>
+        </footer>
+
     </div>
-
-
-
-    <h1>beetween</h1>
-
-    <div class="container">
-        <import>footer.ftl</import>
-    </div>
-
 </head>
 </html>
