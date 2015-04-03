@@ -9,13 +9,16 @@
         <header>
             <@header.header/>
         </header>
-        <nav>
-            London<br>
-            Paris<br>
-            Tokyo<br>
+        <nav class="index">
+            1<br>
+            2<br>
+            3<br>
+        </nav>
+        <nav class="login">
+            Log in<br>
         </nav>
         <section>
-            test
+            <h2>test</h2>
         </section>
 
         <footer>
